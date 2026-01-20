@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ENDFIEID
 
-First, run the development server:
+**《明日方舟：终末地》UID 查询**
+
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fendfieid.ezers.top&up_message=online&up_color=green&down_message=offline&down_color=red&style=flat-square&labelColor=black)](https://endfieid.ezers.top/)
+[![License](https://img.shields.io/github/license/Ezer015/endfieid?style=flat-square&labelColor=black&color=white)](./LICENSE)
+
+[<img src="https://img.shields.io/badge/Check_Now-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Check Now" width="50%">](https://endfieid.ezers.top/)
+
+</div>
+
+## 🚀 快速开始
+
+### 克隆仓库
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Ezer015/endfieid.git
+cd endfieid
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 安装依赖
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 启动开发服务器
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+访问 [http://localhost:3000](http://localhost:3000) 即可开始。
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📦 构建部署
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 生产环境构建
 
-## Deploy on Vercel
+```bash
+pnpm build
+pnpm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 部署到 Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Ezer015/endfieid)
+
+## 📄 许可证
+
+本项目基于 [GNU AGPL v3.0](./LICENSE) 开源许可证发布。
